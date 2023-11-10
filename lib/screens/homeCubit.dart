@@ -53,3 +53,5 @@ class HomeCubit extends StatelessWidget {
     );
   }
 }
+
+// Here we are using == since we are actually comparing with the values of InternetState
