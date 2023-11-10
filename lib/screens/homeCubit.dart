@@ -55,3 +55,5 @@ class HomeCubit extends StatelessWidget {
 }
 
 // Here we are using == since we are actually comparing with the values of InternetState
+// Drawback of Bloc is that for every event their can only be one state
+// Whereas in case of Cubit we can have any number of states for a function
